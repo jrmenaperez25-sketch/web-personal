@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>José Ramón Mena Pérez | Data Science Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio profesional de José Ramón Mena Pérez con proyectos en ciencia de datos, inteligencia artificial, modelización matemática y machine learning."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="background-orb orb-one"></div>
+  <div class="background-orb orb-two"></div>
+
+  <div class="page-shell">
+    <header class="hero">
+      <nav class="topbar">
+        <a class="brand" href="#inicio">José Ramón Mena Pérez</a>
+        <div class="nav-links">
+          <a href="#proyectos">Proyectos</a>
+          <a href="#formacion">Formación</a>
+          <a href="#cursos">Cursos</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </nav>
+
+      <section class="hero-grid" id="inicio">
+        <div class="portrait-card">
+          <div class="portrait-frame">
+            <img class="portrait-photo is-hidden" id="portrait-photo" src="./foto-cv.png" alt="Fotografía profesional de José Ramón Mena Pérez">
+            <div class="portrait-placeholder" id="portrait-placeholder">
+              <div class="portrait-placeholder-copy">
+                <span class="portrait-initials">JM</span>
+                <span class="portrait-placeholder-text">Fotografía no disponible</span>
+              </div>
+            </div>
+          </div>
+          <p class="portrait-note"></p>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio profesional</p>
+          <h1 id="hero-name">José Ramón Mena Pérez</h1>
+          <p class="hero-role" id="hero-role">
+            Perfil técnico en ciencia de datos, inteligencia artificial y modelización aplicada
+          </p>
+          <p class="hero-summary" id="hero-summary">
+            Perfil orientado a ciencia de datos, predicción, machine learning y desarrollo de proyectos técnicos con Python y R.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="./cv-jose-ramon-mena-perez.pdf" target="_blank" rel="noreferrer">
+              Descargar CV
+            </a>
+          <a class="button button-secondary" href="https://github.com/jrmenaperez25-sketch" target="_blank" rel="noreferrer">
+            Ver GitHub
+          </a>
+          </div>
+
+          <div class="hero-ribbon" id="highlights"></div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section section-accent">
+        <div class="section-heading">
+          <p class="section-kicker">Perfil profesional</p>
+          <h2>Perfil técnico orientado a Data Science e AI</h2>
+        </div>
+        <div class="two-column-grid">
+          <article class="panel panel-wide">
+            <p id="value-proposition">
+              Profesional con base matemática y orientación aplicada al tratamiento de datos, la construcción de
+              modelos y la interpretación rigurosa de resultados. Mi trabajo combina análisis estadístico, programación
+              y una aproximación estructurada para transformar problemas complejos en soluciones técnicas claras.
+            </p>
+          </article>
+          <article class="panel">
+            <h3>Competencias</h3>
+            <ul class="tag-list" id="skills"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="proyectos">
+        <div class="section-heading">
+          <p class="section-kicker">Proyectos destacados</p>
+          <h2>Proyectos académicos</h2>
+        </div>
+        <div class="card-grid featured-grid" id="projects"></div>
+      </section>
+
+      <section class="section section-accent" id="experiencia">
+        <div class="section-heading">
+          <p class="section-kicker">Experiencia</p>
+          <h2>Experiencia profesional</h2>
+        </div>
+        <div class="timeline" id="experience"></div>
+      </section>
+
+      <section class="section" id="formacion">
+        <div class="section-heading">
+          <p class="section-kicker">Formación</p>
+          <h2>Trayectoria académica</h2>
+        </div>
+        <div class="timeline" id="timeline"></div>
+      </section>
+
+      <section class="section section-accent" id="cursos">
+        <div class="section-heading">
+          <p class="section-kicker">Cursos complementarios</p>
+          <h2>Cursos complementarios</h2>
+        </div>
+        <div class="card-grid" id="courses"></div>
+      </section>
+
+      <section class="section" id="contacto">
+        <div class="section-heading">
+          <p class="section-kicker">Contacto</p>
+          <h2>Contacto</h2>
+        </div>
+        <div class="contact-card">
+          <p class="contact-lead" id="contact-lead">
+            Contacto profesional y enlaces principales
+          </p>
+          <div class="contact-links" id="contact-links"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
