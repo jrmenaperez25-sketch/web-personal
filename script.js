@@ -118,7 +118,7 @@ valueProposition:
       title: "Python for Data Science, AI & Development",
       copy:
         "Formación en Python aplicada a ciencia de datos, automatización y desarrollo, con base práctica para entornos analíticos y de programación.",
-      href: "https://www.credly.com/users/jose-ramon-mena-perez/edit#credly",
+      href: "https://www.coursera.org/account/accomplishments/verify/WXNDUYU8F2OE",
     },
     {
       meta: "Microsoft — Coursera",
