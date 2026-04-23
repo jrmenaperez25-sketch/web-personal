@@ -1,52 +1,33 @@
 const profile = {
   name: "José Ramón Mena Pérez",
-  role: "Perfil técnico en ciencia de datos, inteligencia artificial y modelización aplicada",
+  role: "Mathematician | Data Science | AI Research",
   summary:
-    "Graduado en Matemáticas con trayectoria académica orientada a ciencia de datos, series temporales, modelización matemática, aprendizaje automático y desarrollo de soluciones técnicas con Python y R.",
-  valueProposition:
-    "Mi perfil se apoya en una base matemática sólida y en una orientación aplicada a ciencia de datos, inteligencia artificial, análisis estadístico y construcción de modelos. Trabajo con un enfoque riguroso, reproducible y orientado a resultados, integrando interpretación de datos, programación y capacidad para comunicar conclusiones técnicas con claridad.",
+  "Estudiante del Máster en Ingeniería de Análisis de Datos, Mejora de Procesos y Toma de Decisiones en la UPV, con base sólida en estadística y modelado matemático. Experiencia investigadora en deep learning aplicado a imagen médica. Perfil orientado a proyectos donde la base matemática y la interpretación estadística sean fundamentales para la resolución de problemas.",
+valueProposition:
+  "Combino una formación matemática sólida. Destaco por mis competencias en estadística, optimización e investigación opertiva. Cuento con experiencia práctica en ciencia de datos y machine learning aplicado a datasets reales. He desarrollado proyectos relacionados con series temporales, análisis multivariante, modelización y optimización. Actualmente me encuentro trabajando en un proyecto de deep learning en un entorno investigador real donde trabajamos desde el preprocesamiento de las imagenes, diseño de splits y aumentación de datos hasta el diseño de funciones de pérdida, estrategias de sampling y evaluación de modelos mediante métricas adecuadas comprendiendo en todo moemnto la teoría que hay detrás de lo que implementamos.",
   highlights: [
-    "Ciencia de datos y machine learning",
-    "Python, R y SQL",
-    "Series temporales y análisis estadístico",
-    "Visualización, reporting y comunicación",
+    "Deep Learning",
+    "Machine Learning",
+    "Python · R · SQL",
+    "Modelización, Optimización, Estadística e Investigación operativa",
   ],
   skills: [
-    "Python y R",
-    "SQL y bases de datos",
+    "Python · R · SQL · C++",
     "Machine learning",
+    "Deep learning",
+    "PyTorch · TensorFlow · Keras",
+    "Pandas · NumPy · Scikit-learn · Polars",
+    "Matplotlib · Seaborn",
     "Series temporales",
     "Análisis multivariante",
-    "Modelización predictiva",
-    "Visualización de datos",
-    "Power BI y reporting",
-    "Optimización",
-    "Limpieza y preparación de datos",
-    "Presentación de resultados",
-    "Trabajo en equipo",
-  ],
-  inProgressProjects: [
-    {
-      title: "Propuesta de trabajo en análisis multivariante",
-      copy:
-        "Proyecto en preparación orientado al análisis de una base de datos real con el objetivo de identificar relaciones entre variables, segmentar perfiles y obtener una visión estructurada del problema de estudio. La propuesta se apoya en análisis exploratorio, reducción de dimensionalidad, análisis de correspondencias y técnicas de clasificación para transformar la información disponible en conclusiones interpretables y útiles.",
-      status: "En proceso · no disponible",
-    },
-    {
-      title: "Propuesta de trabajo en minería de datos",
-      copy:
-        "Proyecto en fase de desarrollo centrado en una base de datos orientada a resolver un problema de clasificación o predicción a partir de información estructurada. El objetivo es construir un flujo completo de preparación de datos, selección de variables, entrenamiento y evaluación de modelos mediante técnicas de minería de datos y aprendizaje automático para obtener una solución útil, interpretable y evaluable.",
-      status: "En proceso · no disponible",
-    },
+    "Power BI (DAX, Power Query)",
+    "Excel avanzado",
+    "Git · GitHub · Docker",
+    "LaTeX",
+    "OutSystems",
   ],
   projects: [
-    {
-      kicker: "Análisis estadístico",
-      title: "Análisis multivariante aplicado a datos reales",
-      copy:
-        "Trabajo desarrollado en el Máster en Análisis de Datos centrado en técnicas de reducción de dimensionalidad, análisis discriminante y exploración multivariante. El proyecto combina tratamiento de datos reales, interpretación estadística y soporte computacional para extraer estructura y patrones relevantes.",
-      href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Analisis-Multivariante",
-    },
+    
     {
       kicker: "Series temporales",
       title: "Modelización ARIMA y predicción sobre datos de turismo",
@@ -55,7 +36,14 @@ const profile = {
       href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Tecnicas-de-Prevision",
     },
     {
-      kicker: "Optimización",
+      kicker: "Análisis estadístico",
+      title: "Análisis multivariante aplicado a datos reales",
+      copy:
+        "Trabajo desarrollado en el Máster en Análisis de Datos centrado en técnicas de reducción de dimensionalidad, análisis discriminante y exploración multivariante. El proyecto combina tratamiento de datos reales, interpretación estadística y análisis para extraer estructura y patrones relevantes en una base de datos del ámbito de la medicina.",
+      href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Analisis-Multivariante",
+    },
+    {
+      kicker: "Optimización combinatoria",
       title: "GRASP y Path Relinking para el Maximum Diversity Problem",
       copy:
         "Implementación en Python de metaheurísticas para un problema de optimización combinatoria NP-hard. El proyecto integra fase constructiva, búsqueda local, gestión de soluciones élite y estrategias de intensificación para comparar el comportamiento de GRASP y su extensión con Path Relinking sobre instancias benchmark.",
@@ -65,92 +53,104 @@ const profile = {
       kicker: "Modelización matemática",
       title: "TFG en modelos compartimentales aplicados a la dinámica del crimen",
       copy:
-        "Trabajo de Fin de Grado centrado en la formulación y análisis de un modelo compartimental inspirado en sistemas epidemiológicos para estudiar la evolución del comportamiento criminal. Incluye ecuaciones diferenciales ordinarias, estimación de parámetros, ajuste a datos reales y estudio de estabilidad del sistema.",
+        "Trabajo de Fin de Grado centrado en la formulación y análisis de un modelo compartimental inspirado en sistemas epidemiológicos para estudiar la evolución del comportamiento criminal, en conreto en España durante un período concreto de tiempo. Incluye ecuaciones diferenciales ordinarias, estimación de parámetros y ajuste a datos reales.",
       href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas/tfg-compartmental-models-crime-dynamics",
+    },
+    {
+      title: "Propuesta de trabajo en análisis multivariante",
+      copy:
+        "Trabajo del Máster (UPV) sobre el dataset Africa Soil Property Prediction Challenge (Kaggle, 2014). A partir de 3 593 variables predictoras —3 578 espectros de infrarrojo medio (MIR) y 15 variables edáficas, topográficas, climáticas y de teledetección— se predicen cinco indicadores de calidad del suelo (Ca, P, pH, SOC, Sand) en zonas rurales de África subsahariana. El proyecto compara PCA, PCR y PLS2 como métodos de variables latentes frente a Ridge, Random Forest y MLP como referencias, bajo un esquema de validación común. Se aborda colinealidad extrema, situación K >> N e interpretación de regiones espectrales relevantes mediante VIP Scores.",
+      status: "En proceso · no disponible",
+    },
+    {
+      title: "Propuesta de trabajo en minería de datos",
+      copy:
+        "Trabajo del Máster (UPV) sobre una base de datos de anuncios de vehículos con variables técnicas, de uso, estado, localización y precio. El proyecto incluye cuatro objetivos: exploración no supervisada con PCA, MCA y fuzzy clustering para identificar perfiles de mercado; regresión para predecir el precio (Random Forest vs. regresión tradicional); clasificación del estado del vehículo (Condition, multiclase); y clasificación de primer propietario (First.Owner, binaria). El preprocesamiento incluye imputación múltiple con mice, codificación de equipamiento en variables interpretables y validación estratificada.",
+      status: "En proceso · no disponible",
     },
   ],
   experience: [
     {
-      meta: "CVB LAB",
-      title: "Entorno profesional orientado a tareas técnicas y operativas",
+      meta: "CVB Lab, UPV · Feb 2026 – Jul 2026",
+      title: "Investigador en prácticas — Deep Learning aplicado a imagen médica",
       copy:
-        "Experiencia vinculada a dinámica de trabajo profesional con responsabilidad en seguimiento de tareas, organización operativa y adaptación a procesos. Desarrollo de capacidad de aprendizaje, comunicación y trabajo ordenado en entorno profesional.",
+        "Entrenamiento y fine-tuning de modelos de deep learning sobre imágenes histopatológicas para detección automática de mitosis en cáncer de mama. Trabajo con clases desbalanceadas mediante estrategias de sampling y aumentación de datos. Diseño de splits reproducibles y evaluación con métricas adaptadas al problema clínico. Stack: Python, PyTorch, NumPy, Pandas, Matplotlib, Jupyter Notebook.",
     },
     {
-      meta: "NTT DATA Europe & Latam",
-      title: "Entorno profesional orientado a consultoría y tecnología",
+      meta: "NTT DATA Europe & Latam · Mar 2025 – Jul 2025",
+      title: "Becario en desarrollo low-code (OutSystems)",
       copy:
-        "Experiencia vinculada a dinámica de trabajo profesional en compañía tecnológica, con foco en adaptación a equipos, comunicación, aprendizaje continuo y comprensión de entornos de consultoría y proyectos.",
+        "Desarrollo y mantenimiento de aplicaciones internas para monitorización de preparación de certificaciones. Consultas SQL para extracción y filtrado de datos. Operaciones CRUD, consumo de APIs REST e integración de servicios. Validaciones de datos y control de acceso mediante roles de usuario.",
     },
     {
-      meta: "Caixa Popular · octubre 2024 - enero 2025",
-      title: "Atención al cliente y soporte administrativo",
+      meta: "Caixa Popular · Oct 2024 – Ene 2025",
+      title: "Auxiliar de caja y atención al cliente",
       copy:
-        "Experiencia en entorno financiero con atención directa al cliente, apoyo en tareas administrativas, gestión documental y resolución de consultas. Desarrollo de habilidades de comunicación, organización, orientación al servicio y trato profesional en oficina.",
+        "Atención y asesoramiento al cliente en entorno financiero. Gestión de caja, pagos y tareas administrativas generales. Desarrollo de habilidades de comunicación, organización y orientación al servicio.",
     },
   ],
   timeline: [
     {
-      meta: "Grado en Matemáticas",
-      title: "Base técnica para análisis, optimización y modelización",
+      meta: "Máster en Ing. de Análisis de Datos, Mejora de Procesos y Toma de Decisiones",
+      title: "UPV · 2025 – 2026",
       copy:
-        "Trayectoria académica centrada en matemáticas aplicadas, métodos analíticos y resolución estructurada de problemas. Incluye desarrollo de proyectos en investigación operativa, modelización dinámica y análisis numérico con aplicación directa a datos y sistemas reales.",
-      href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas",
-    },
-    {
-      meta: "Máster en Análisis de Datos",
-      title: "Especialización en modelización, previsión y análisis estadístico",
-      copy:
-        "Formación orientada a proyectos aplicados en series temporales, análisis multivariante, diseño de experimentos y estadística con R. Esta etapa consolida una orientación profesional hacia analítica avanzada, modelización de datos y apoyo técnico a la toma de decisiones.",
+        "Formación avanzada en métodos estadísticos, series temporales, minería de datos, IA aplicada, diseño de experimentos, modelado y simulación, optimización e investigación operativa. Orientado a proyectos aplicados con base analítica sólida.",
       href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master",
     },
     {
-      meta: "Certificado profesional de Data Science de IBM",
-      title: "Especialización aplicada en machine learning y ciencia de datos",
+      meta: "Grado en Matemáticas",
+      title: "Universitat de València · 2021 – 2025",
       copy:
-        "Itinerario formativo orientado a machine learning, tratamiento de datos, visualización, evaluación de modelos y aplicación práctica del ecosistema Python en proyectos de ciencia de datos.",
+        "Formación en matemáticas aplicadas: álgebra lineal, análisis matemático, probabilidad y estadística, ecuaciones diferenciales, métodos numéricos, investigación operativa, topología y programación en Python, R y C++. Incluye proyectos en optimización combinatoria y modelización.",
+      href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas",
+    },
+    {
+      meta: "IBM Data Science Professional Certificate",
+      title: "IBM — Coursera · 2025",
+      copy:
+        "Programa profesional completo: metodología de ciencia de datos, Python, SQL, bases de datos, visualización de datos, machine learning con Scikit-learn y proyecto final aplicado.",
       href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/ibm-aprendizaje-automatico",
     },
   ],
   courses: [
     {
-      meta: "Coursera",
-      title: "Introduction to Microsoft Excel",
-      copy:
-        "Curso orientado al manejo de hojas de cálculo, tratamiento de datos y organización de información en entornos de análisis.",
-      href: "https://www.coursera.org/account/accomplishments/verify/H9W8GIE9BGNP",
-    },
-    {
-      meta: "Coursera",
-      title: "HTML, CSS, and JavaScript for Web Developers",
-      copy:
-        "Formación en desarrollo web front-end con enfoque en estructura, estilos y comportamiento interactivo en aplicaciones web.",
-      href: "https://www.coursera.org/account/accomplishments/verify/B8TDLEW7FNRF",
-    },
-    {
-      meta: "Coursera",
-      title: "Curso de SQL para ciencia de datos",
-      copy:
-        "Curso centrado en fundamentos de consulta y gestión de datos con SQL aplicados a contextos de analítica y ciencia de datos.",
-      href: "https://www.coursera.org/account/accomplishments/verify/W3QI6HVXJJW6",
-    },
-    {
-      meta: "Coursera",
+      meta: "IBM — Coursera",
       title: "Python for Data Science, AI & Development",
       copy:
         "Formación en Python aplicada a ciencia de datos, automatización y desarrollo, con base práctica para entornos analíticos y de programación.",
       href: "https://www.credly.com/users/jose-ramon-mena-perez/edit#credly",
     },
     {
-      meta: "Coursera",
-      title: "Curso de ETL y pipelines de datos",
+      meta: "Microsoft — Coursera",
+      title: "SQL Foundations",
       copy:
-        "Curso enfocado en procesos ETL, integración de datos y construcción de pipelines orientados a entornos de analítica y datos.",
+        "Fundamentos de SQL orientados a consulta, extracción y gestión de datos en contextos analíticos.",
+      href: "https://www.coursera.org/account/accomplishments/verify/W3QI6HVXJJW6",
+    },
+    {
+      meta: "IBM — Coursera",
+      title: "Excel Basics for Data Analysis",
+      copy:
+        "Manejo de hojas de cálculo para análisis de datos, organización de información y soporte a tareas analíticas.",
+      href: "https://www.coursera.org/account/accomplishments/verify/H9W8GIE9BGNP",
+    },
+    {
+      meta: "Microsoft — Coursera",
+      title: "ETL with Power BI",
+      copy:
+        "Procesos ETL, integración de datos y analítica con Power BI.",
       href: "https://www.coursera.org/account/accomplishments/verify/FG2LYYPVG5G3",
+    },
+    {
+      meta: "Johns Hopkins — Coursera",
+      title: "HTML, CSS, and JavaScript for Web Developers",
+      copy:
+        "Desarrollo web front-end con enfoque en estructura, estilos y comportamiento interactivo en aplicaciones web.",
+      href: "https://www.coursera.org/account/accomplishments/verify/B8TDLEW7FNRF",
     },
   ],
   contactLead:
-    "Busco una oportunidad donde seguir creciendo en el ámbito de ciencia de datos e inteligencia artificial, aportando base analítica, capacidad técnica y margen real de aprendizaje y desarrollo profesional.",
+    "Busco una oportunidad donde seguir creciendo en el ámbito de la ciencia de datos,  el machine learning y la IA, aportando base matemática sólida, experiencia práctica con modelos reales y capacidad de aprendizaje rápido.",
   contacts: [
     {
       label: "Email",
@@ -159,8 +159,8 @@ const profile = {
     },
     {
       label: "Teléfono",
-      value: "Añadir teléfono",
-      href: "tel:+34000000000",
+      value: "+34 605 647 469",
+      href: "tel:+34605647469",
     },
     {
       label: "GitHub",
@@ -236,29 +236,26 @@ renderList("skills", profile.skills, (item) => `<li>${item}</li>`);
 
 renderList(
   "projects",
-  [...profile.projects, ...profile.inProgressProjects],
-  (item) => `
-    ${
-      item.status
-        ? `
-          <article class="status-card" aria-disabled="true">
-            <span class="status-badge">${item.status}</span>
+  profile.projects,
+  (item) =>
+    item.status
+      ? `
+        <article class="status-card" aria-disabled="true">
+          <span class="status-badge">${item.status}</span>
+          <h3>${item.title}</h3>
+          <p class="project-copy">${item.copy}</p>
+          <p class="status-note">Disponible próximamente</p>
+        </article>
+      `
+      : `
+        <a class="project-link" href="${item.href}" target="_blank" rel="noreferrer">
+          <article class="project-card">
+            <span class="card-kicker">${item.kicker}</span>
             <h3>${item.title}</h3>
             <p class="project-copy">${item.copy}</p>
-            <p class="status-note">Disponible próximamente</p>
           </article>
-        `
-        : `
-          <a class="project-link" href="${item.href}" target="_blank" rel="noreferrer">
-            <article class="project-card">
-              <span class="card-kicker">${item.kicker}</span>
-              <h3>${item.title}</h3>
-              <p class="project-copy">${item.copy}</p>
-            </article>
-          </a>
-        `
-    }
-  `
+        </a>
+      `
 );
 
 renderList(
