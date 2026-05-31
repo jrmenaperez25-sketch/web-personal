@@ -20,12 +20,21 @@
   <div class="page-shell">
     <header class="hero">
       <nav class="topbar">
-        <a class="brand" href="#inicio">José Ramón Mena Pérez</a>
-        <div class="nav-links">
-          <a href="#proyectos">Proyectos</a>
-          <a href="#formacion">Formación</a>
-          <a href="#cursos">Cursos</a>
-          <a href="#contacto">Contacto</a>
+        <a class="brand" href="#inicio">Jos? Ram?n Mena P?rez</a>
+        <div class="topbar-actions">
+          <div class="nav-links">
+            <a href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+            <a href="#formacion" data-i18n="nav.education">Formaci?n</a>
+            <a href="#cursos" data-i18n="nav.courses">Cursos</a>
+            <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+          </div>
+          <label class="language-switcher" for="language-select">
+            <span data-i18n="language.label">Idioma</span>
+            <select id="language-select" aria-label="Seleccionar idioma">
+              <option value="es">ES</option>
+              <option value="en">EN</option>
+            </select>
+          </label>
         </div>
       </nav>
 
@@ -44,7 +53,7 @@
         </div>
 
         <div class="hero-copy">
-          <p class="eyebrow">Portfolio profesional</p>
+          <p class="eyebrow" data-i18n="hero.eyebrow">Portfolio profesional</p>
           <h1 id="hero-name">José Ramón Mena Pérez</h1>
           <p class="hero-role" id="hero-role">
             Perfil técnico en ciencia de datos, inteligencia artificial y modelización aplicada
@@ -55,10 +64,10 @@
 
           <div class="hero-actions">
             <a class="button button-primary" href="./cv-jose-ramon-mena-perez.pdf" target="_blank" rel="noreferrer">
-              Descargar CV
+              <span data-i18n="actions.downloadCv">Descargar CV</span>
             </a>
             <a class="button button-secondary" href="https://github.com/jrmenaperez25-sketch" target="_blank" rel="noreferrer">
-              Ver GitHub
+              <span data-i18n="actions.github">Ver GitHub</span>
             </a>
           </div>
 
@@ -70,8 +79,8 @@
     <main>
       <section class="section section-accent">
         <div class="section-heading">
-          <p class="section-kicker">Perfil profesional</p>
-          <h2>Perfil técnico orientado a Data Science e AI</h2>
+          <p class="section-kicker" data-i18n="sections.profile.kicker">Perfil profesional</p>
+          <h2 data-i18n="sections.profile.title">Perfil técnico orientado a Data Science e AI</h2>
         </div>
         <div class="two-column-grid">
           <article class="panel panel-wide">
@@ -82,7 +91,7 @@
             </p>
           </article>
           <article class="panel">
-            <h3>Competencias</h3>
+            <h3 data-i18n="sections.profile.skillsTitle">Competencias</h3>
             <ul class="tag-list" id="skills"></ul>
           </article>
         </div>
@@ -90,40 +99,40 @@
 
       <section class="section" id="proyectos">
         <div class="section-heading">
-          <p class="section-kicker">Proyectos destacados</p>
-          <h2>Proyectos académicos</h2>
+          <p class="section-kicker" data-i18n="sections.projects.kicker">Proyectos destacados</p>
+          <h2 data-i18n="sections.projects.title">Proyectos académicos</h2>
         </div>
         <div class="card-grid featured-grid" id="projects"></div>
       </section>
 
       <section class="section section-accent" id="experiencia">
         <div class="section-heading">
-          <p class="section-kicker">Experiencia</p>
-          <h2>Experiencia profesional</h2>
+          <p class="section-kicker" data-i18n="sections.experience.kicker">Experiencia</p>
+          <h2 data-i18n="sections.experience.title">Experiencia profesional</h2>
         </div>
         <div class="timeline" id="experience"></div>
       </section>
 
       <section class="section" id="formacion">
         <div class="section-heading">
-          <p class="section-kicker">Formación</p>
-          <h2>Trayectoria académica</h2>
+          <p class="section-kicker" data-i18n="sections.education.kicker">Formación</p>
+          <h2 data-i18n="sections.education.title">Trayectoria académica</h2>
         </div>
         <div class="timeline" id="timeline"></div>
       </section>
 
       <section class="section section-accent" id="cursos">
         <div class="section-heading">
-          <p class="section-kicker">Cursos complementarios</p>
-          <h2>Cursos complementarios</h2>
+          <p class="section-kicker" data-i18n="sections.courses.kicker">Cursos complementarios</p>
+          <h2 data-i18n="sections.courses.title">Cursos complementarios</h2>
         </div>
         <div class="card-grid" id="courses"></div>
       </section>
 
       <section class="section" id="contacto">
         <div class="section-heading">
-          <p class="section-kicker">Contacto</p>
-          <h2>Contacto</h2>
+          <p class="section-kicker" data-i18n="sections.contact.kicker">Contacto</p>
+          <h2 data-i18n="sections.contact.title">Contacto</h2>
         </div>
         <div class="contact-card">
           <p class="contact-lead" id="contact-lead">
