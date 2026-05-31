@@ -1,10 +1,10 @@
 const profile = {
   name: "José Ramón Mena Pérez",
-  role: "Mathematician | Data Science | AI Research",
+  role: "Mathematician | Data Science | AI Engineering",
   summary:
   "Estudiante del Máster en Ingeniería de Análisis de Datos, Mejora de Procesos y Toma de Decisiones en la UPV, con base sólida en estadística y modelado matemático. Experiencia investigadora en deep learning aplicado a imagen médica. Perfil orientado a proyectos donde la base matemática y la interpretación estadística sean fundamentales para la resolución de problemas.",
 valueProposition:
-  "Combino una formación matemática sólida con grandes habilidades de comunicación. Destaco por mis competencias en estadística, optimización e investigación opertiva. Cuento con experiencia práctica en ciencia de datos y machine learning aplicado a problemas reales reales. He participado en proyectos relacionados con series temporales, análisis multivariante y control estadístico de la calidad. Actualmente me encuentro trabajando en un proyecto relacionado con modelos de deep learning en un entorno investigador real donde trabajamos desde el preprocesamiento de las imágenes, diseño de splits de entrenamiento y aumentación de datos hasta la selección de funciones de pérdida, estrategias de sampling y evaluación de modelos mediante métricas adecuadas comprendiendo en todo momento la teoría que hay detrás de lo que implementamos.",
+  "Combino una formación matemática sólida con grandes habilidades de comunicación. Destaco por mis competencias en estadística, optimización e investigación operativa. Cuento con experiencia práctica en ciencia de datos y machine learning aplicado a problemas reales. He participado en proyectos relacionados con series temporales, análisis multivariante y control estadístico de la calidad. Actualmente me encuentro trabajando en un proyecto relacionado con modelos de deep learning en un entorno investigador real donde trabajamos desde el preprocesamiento de las imágenes, diseño de splits de entrenamiento y aumentación de datos hasta la selección de funciones de pérdida, estrategias de sampling y evaluación de modelos mediante métricas adecuadas comprendiendo en todo momento la teoría que hay detrás de lo que implementamos.",
   highlights: [
     "Deep Learning",
     "Machine Learning",
@@ -53,7 +53,7 @@ valueProposition:
       kicker: "Modelización matemática",
       title: "TFG en modelos compartimentales aplicados a la dinámica del crimen",
       copy:
-        "Trabajo de Fin de Grado centrado en la formulación y análisis de un modelo compartimental inspirado en sistemas epidemiológicos para estudiar la evolución del comportamiento criminal, en conreto en España durante un período concreto de tiempo. Incluye ecuaciones diferenciales ordinarias, estimación de parámetros y ajuste a datos reales.",
+        "Trabajo de Fin de Grado centrado en la formulación y análisis de un modelo compartimental inspirado en sistemas epidemiológicos para estudiar la evolución del comportamiento criminal, en concreto en España durante un período concreto de tiempo. Incluye ecuaciones diferenciales ordinarias, estimación de parámetros y ajuste a datos reales.",
       href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas/tfg-compartmental-models-crime-dynamics",
     },
     {

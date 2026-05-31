@@ -1,12 +1,13 @@
-# Web Personal / CV Online
+# Web personal / CV online
 
-Esta carpeta ya incluye una web estatica lista para usar:
+Web estática de portfolio profesional.
 
-- `index.html`: estructura de la pagina
-- `style.css`: diseno visual
-- `script.js`: contenido editable
-- `Curriculum JRMP Castellano 2026.pdf`: CV en PDF enlazado desde la web
+- `index.html`: estructura de la página.
+- `style.css`: estilos visuales.
+- `script.js`: contenido editable del perfil, proyectos, experiencia y contacto.
+- `cv-jose-ramon-mena-perez.pdf`: CV enlazado desde la web.
+- `foto-cv.png`: fotografía profesional usada en la cabecera.
 
-## Como verla
+## Cómo verla
 
-Abre `index.html` en el navegador.
+Abre `index.html` en el navegador o publica el repositorio con GitHub Pages.
