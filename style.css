@@ -512,6 +512,11 @@ h3 {
   transform: translateY(-2px);
 }
 
+.project-entry {
+  display: grid;
+  gap: 8px;
+}
+
 .project-area-heading {
   grid-column: 1 / -1;
   padding: 10px 0 6px;

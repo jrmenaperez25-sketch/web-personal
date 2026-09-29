@@ -95,6 +95,10 @@
           copy:
             "Sistema en dos fases evaluado en MITOS-ATYPIA-14 y TUPAC16: RF-DETR propone candidatos con alta sensibilidad y Virchow (ViT-H/14) adaptado con LoRA filtra los falsos positivos entrenando sobre los errores reales del detector. El F₁ pasa de 0,62 a 0,79 en MITOS y de 0,57 a 0,76 en TUPAC. Stack: Python, PyTorch, PEFT/LoRA, rfdetr, ultralytics.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
+          docs: [
+            { label: "Memoria TFM", href: "https://raw.githubusercontent.com/jrmenaperez25-sketch/proyectos-portfolio/master/master/TFM-Deteccion-Mitosis/docs/TFM_completo.pdf", filename: "TFM_Deteccion_Mitosis_JoseRamon_Mena.pdf" },
+            { label: "Presentación defensa", href: "https://raw.githubusercontent.com/jrmenaperez25-sketch/proyectos-portfolio/master/master/TFM-Deteccion-Mitosis/docs/TFM_defensa.pdf", filename: "TFM_Defensa_Deteccion_Mitosis_JoseRamon_Mena.pdf" },
+          ],
         },
         {
           kicker: "AI Médica · Computer Vision · Publicación CASEIB 2026",
@@ -102,6 +106,9 @@
           copy:
             "Artículo enviado al XLIV Congreso Anual de la Sociedad Española de Ingeniería Biomédica (CASEIB 2026, Valencia) — pendiente de aceptación. Propone un pipeline de detección de figuras mitóticas con RF-DETR como detector y Virchow adaptado con LoRA como clasificador de falsos positivos, con resultados en dos conjuntos de datos públicos independientes.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
+          docs: [
+            { label: "Artículo CASEIB 2026", href: "https://raw.githubusercontent.com/jrmenaperez25-sketch/proyectos-portfolio/master/master/TFM-Deteccion-Mitosis/docs/CASEIB2026_articulo.pdf", filename: "CASEIB2026_Deteccion_Mitosis_JoseRamon_Mena.pdf" },
+          ],
         },
         {
           areaHeading: true,
@@ -328,6 +335,10 @@
           copy:
             "Two-phase system evaluated on MITOS-ATYPIA-14 and TUPAC16: RF-DETR proposes high-recall candidates and Virchow (ViT-H/14) adapted with LoRA filters false positives by training on the detector's own errors. F₁ improves from 0.62 to 0.79 on MITOS and from 0.57 to 0.76 on TUPAC. Stack: Python, PyTorch, PEFT/LoRA, rfdetr, ultralytics.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
+          docs: [
+            { label: "MSc thesis (full)", href: "https://raw.githubusercontent.com/jrmenaperez25-sketch/proyectos-portfolio/master/master/TFM-Deteccion-Mitosis/docs/TFM_completo.pdf", filename: "MSc_Thesis_Mitosis_Detection_JoseRamon_Mena.pdf" },
+            { label: "Defence slides", href: "https://raw.githubusercontent.com/jrmenaperez25-sketch/proyectos-portfolio/master/master/TFM-Deteccion-Mitosis/docs/TFM_defensa.pdf", filename: "MSc_Thesis_Defence_Mitosis_Detection_JoseRamon_Mena.pdf" },
+          ],
         },
         {
           kicker: "Medical AI · Computer Vision · CASEIB 2026 Publication",
@@ -335,6 +346,9 @@
           copy:
             "Paper submitted to the XLIV Annual Congress of the Spanish Society of Biomedical Engineering (CASEIB 2026, Valencia) — awaiting acceptance. Proposes a mitotic figure detection pipeline using RF-DETR as detector and LoRA-adapted Virchow as false-positive classifier, evaluated on two independent public datasets.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
+          docs: [
+            { label: "CASEIB 2026 paper", href: "https://raw.githubusercontent.com/jrmenaperez25-sketch/proyectos-portfolio/master/master/TFM-Deteccion-Mitosis/docs/CASEIB2026_articulo.pdf", filename: "CASEIB2026_Mitosis_Detection_JoseRamon_Mena.pdf" },
+          ],
         },
         {
           areaHeading: true,
@@ -545,13 +559,16 @@ const applyLanguage = (language) => {
           </article>
         `
         : `
-          <a class="project-link" href="${item.href}" target="_blank" rel="noreferrer">
-            <article class="project-card">
-              <span class="card-kicker">${item.kicker}</span>
-              <h3>${item.title}</h3>
-              <p class="project-copy">${item.copy}</p>
-            </article>
-          </a>
+          <div class="project-entry">
+            <a class="project-link" href="${item.href}" target="_blank" rel="noreferrer">
+              <article class="project-card">
+                <span class="card-kicker">${item.kicker}</span>
+                <h3>${item.title}</h3>
+                <p class="project-copy">${item.copy}</p>
+              </article>
+            </a>
+            ${item.docs ? `<div class="timeline-docs">${item.docs.map(d => `<a class="timeline-doc-link" href="${d.href}" target="_blank" rel="noreferrer" download="${d.filename}">↓ ${d.label}</a>`).join("")}</div>` : ""}
+          </div>
         `
   );
 
