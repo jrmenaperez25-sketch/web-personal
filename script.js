@@ -164,7 +164,7 @@
             "Formación avanzada en métodos estadísticos, series temporales, minería de datos, IA aplicada, diseño de experimentos, modelado y simulación, optimización e investigación operativa. Orientado a proyectos aplicados con base analítica sólida.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master",
           docs: [
-            { label: "Expediente académico", href: "./expediente-master-es.pdf" },
+            { label: "Expediente académico", href: "./expediente-master-es.pdf", filename: "Expediente_Academico_Master_MUIAD_UPV.pdf" },
           ],
         },
         {
@@ -174,8 +174,8 @@
             "Formación en matemáticas aplicadas: álgebra lineal, análisis matemático, probabilidad y estadística, ecuaciones diferenciales, métodos numéricos, investigación operativa, topología y programación en Python, R y C++. Incluye proyectos en optimización combinatoria y modelización.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas",
           docs: [
-            { label: "Título oficial", href: "./titulo-grado-matematicas.pdf" },
-            { label: "Expediente académico", href: "./expediente-grado-matematicas.pdf" },
+            { label: "Título oficial", href: "./titulo-grado-matematicas.pdf", filename: "Titulo_Oficial_Grado_Matematicas_UV.pdf" },
+            { label: "Expediente académico", href: "./expediente-grado-valenciano.pdf", filename: "Expediente_Academico_Grado_Matematicas_UV.pdf" },
           ],
         },
         {
@@ -386,7 +386,7 @@
             "Advanced training in statistical methods, time series, data mining, applied AI, design of experiments, modelling and simulation, optimisation and operations research. Oriented toward applied projects with a strong analytical foundation.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master",
           docs: [
-            { label: "Academic transcript", href: "./expediente-master-en.pdf" },
+            { label: "Academic transcript", href: "./expediente-master-en.pdf", filename: "Academic_Transcript_MSc_MUIAD_UPV.pdf" },
           ],
         },
         {
@@ -396,8 +396,8 @@
             "Training in applied mathematics: linear algebra, mathematical analysis, probability and statistics, differential equations, numerical methods, operations research, topology and programming in Python, R and C++. Includes projects in combinatorial optimisation and mathematical modelling.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas",
           docs: [
-            { label: "Official degree", href: "./titulo-grado-matematicas.pdf" },
-            { label: "Academic transcript", href: "./expediente-grado-matematicas.pdf" },
+            { label: "Official degree", href: "./titulo-grado-matematicas.pdf", filename: "Official_Degree_BSc_Mathematics_UV.pdf" },
+            { label: "Academic transcript", href: "./expediente-grado-ingles.pdf", filename: "Academic_Transcript_BSc_Mathematics_UV.pdf" },
           ],
         },
         {
@@ -555,7 +555,7 @@ const applyLanguage = (language) => {
             <p class="timeline-copy">${item.copy}</p>
           </article>
         </a>
-        ${item.docs ? `<div class="timeline-docs">${item.docs.map(d => `<a class="timeline-doc-link" href="${d.href}" target="_blank" rel="noreferrer" download>↓ ${d.label}</a>`).join("")}</div>` : ""}
+        ${item.docs ? `<div class="timeline-docs">${item.docs.map(d => `<a class="timeline-doc-link" href="${d.href}" target="_blank" rel="noreferrer" download="${d.filename}">↓ ${d.label}</a>`).join("")}</div>` : ""}
       </div>
     `
   );
