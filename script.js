@@ -65,7 +65,6 @@
       valueProposition:
         "Combino una formación matemática sólida con grandes habilidades de comunicación. Destaco por mis competencias en estadística, optimización e investigación operativa. Cuento con experiencia práctica en ciencia de datos y machine learning aplicado a problemas reales. He desarrollado el TFM en el CVB Lab (UPV), implementando un sistema de detección de mitosis en dos fases sobre histopatología de cáncer de mama evaluado en MITOS-ATYPIA-14 y TUPAC16. El trabajo dio lugar a un artículo enviado al CASEIB 2026 (pendiente de aceptación).",
       highlights: [
-        "TFM · Imagen médica · CASEIB",
         "Deep Learning · Machine Learning",
         "Python · R · SQL",
         "Modelización, optimización, estadística e investigación operativa",
@@ -87,61 +86,79 @@
       ],
       projects: [
         {
-          kicker: "Deep Learning · TFM",
+          areaHeading: true,
+          label: "AI Médica · Computer Vision",
+        },
+        {
+          kicker: "AI Médica · Computer Vision · TFM Máster",
           title: "TFM: Detección y clasificación de figuras mitóticas en histopatología de cáncer de mama",
           copy:
             "Sistema en dos fases evaluado en MITOS-ATYPIA-14 y TUPAC16: RF-DETR propone candidatos con alta sensibilidad y Virchow (ViT-H/14) adaptado con LoRA filtra los falsos positivos entrenando sobre los errores reales del detector. El F₁ pasa de 0,62 a 0,79 en MITOS y de 0,57 a 0,76 en TUPAC. Stack: Python, PyTorch, PEFT/LoRA, rfdetr, ultralytics.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
         },
         {
-          kicker: "Deep Learning · Publicación CASEIB 2026",
+          kicker: "AI Médica · Computer Vision · Publicación CASEIB 2026",
           title: "Detección de mitosis en dos fases con modelos fundacionales de patología",
           copy:
             "Artículo enviado al XLIV Congreso Anual de la Sociedad Española de Ingeniería Biomédica (CASEIB 2026, Valencia) — pendiente de aceptación. Propone un pipeline de detección de figuras mitóticas con RF-DETR como detector y Virchow adaptado con LoRA como clasificador de falsos positivos, con resultados en dos conjuntos de datos públicos independientes.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
         },
         {
-          kicker: "Series temporales",
-          title: "Modelización ARIMA y predicción sobre datos de turismo",
-          copy:
-            "Proyecto de técnicas de previsión orientado al estudio de la evolución temporal del turismo, con análisis exploratorio, descomposición de series, comparativa de escenarios y construcción de modelos ARIMA en R. El trabajo se centra en la calidad del ajuste, la interpretación del comportamiento temporal y la capacidad predictiva.",
-          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Tecnicas-de-Prevision",
+          areaHeading: true,
+          label: "Modelización Matemática · Optimización",
         },
         {
-          kicker: "Análisis estadístico",
-          title: "Análisis multivariante aplicado a datos reales",
+          kicker: "Modelización Matemática · TFG Grado",
+          title: "TFG en modelos compartimentales aplicados a la dinámica del crimen",
           copy:
-            "Trabajo desarrollado en el Máster en Análisis de Datos centrado en técnicas de reducción de dimensionalidad, análisis discriminante y exploración multivariante. El proyecto combina tratamiento de datos reales, interpretación estadística y análisis para extraer estructura y patrones relevantes en una base de datos del ámbito de la medicina.",
-          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Analisis-Multivariante",
+            "Trabajo de Fin de Grado centrado en la formulación y análisis de un modelo compartimental inspirado en sistemas epidemiológicos para estudiar la evolución del comportamiento criminal en España. Incluye ecuaciones diferenciales ordinarias, estimación de parámetros y ajuste a datos reales.",
+          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas/tfg-compartmental-models-crime-dynamics",
         },
         {
-          kicker: "Optimización combinatoria",
+          kicker: "Optimización Combinatoria · Grado Matemáticas",
           title: "GRASP y Path Relinking para el Maximum Diversity Problem",
           copy:
             "Implementación en Python de metaheurísticas para un problema de optimización combinatoria NP-hard. El proyecto integra fase constructiva, búsqueda local, gestión de soluciones élite y estrategias de intensificación para comparar el comportamiento de GRASP y su extensión con Path Relinking sobre instancias benchmark.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas/grasp-path-relinking-mdp",
         },
         {
-          kicker: "Modelización matemática",
-          title: "TFG en modelos compartimentales aplicados a la dinámica del crimen",
-          copy:
-            "Trabajo de Fin de Grado centrado en la formulación y análisis de un modelo compartimental inspirado en sistemas epidemiológicos para estudiar la evolución del comportamiento criminal, en concreto en España durante un período concreto de tiempo. Incluye ecuaciones diferenciales ordinarias, estimación de parámetros y ajuste a datos reales.",
-          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas/tfg-compartmental-models-crime-dynamics",
+          areaHeading: true,
+          label: "Modelos Predictivos · Data Science",
         },
         {
-          kicker: "Minería de datos",
+          kicker: "Modelos Predictivos · Series Temporales",
+          title: "Modelización ARIMA y predicción sobre datos de turismo",
+          copy:
+            "Proyecto de técnicas de previsión orientado al estudio de la evolución temporal del turismo, con análisis exploratorio, descomposición de series, comparativa de escenarios y construcción de modelos ARIMA en R. El trabajo se centra en la calidad del ajuste, la interpretación del comportamiento temporal y la capacidad predictiva.",
+          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Tecnicas-de-Prevision",
+        },
+        {
+          kicker: "Modelos Predictivos · Análisis Estadístico",
+          title: "Análisis multivariante aplicado a datos reales",
+          copy:
+            "Trabajo del Máster centrado en técnicas de reducción de dimensionalidad, análisis discriminante y exploración multivariante. Combina tratamiento de datos reales e interpretación estadística para extraer estructura y patrones relevantes en un dataset del ámbito de la medicina.",
+          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Analisis-Multivariante",
+        },
+        {
+          kicker: "Modelos Predictivos · Minería de Datos",
           title: "Predicción de precio y clasificación de vehículos de segunda mano",
           copy:
-            "Proyecto del Máster (UPV) sobre un dataset de anuncios de vehículos marroquíes con variables técnicas, de uso, condición y precio. Incluye exploración no supervisada (PCA), predicción de precio con modelos de regresión e interpretabilidad (ALE, LIME), y clasificación del estado y del primer propietario. Imputación múltiple KNN. Stack: R, tidyverse, caret.",
+            "Proyecto del Máster (UPV) sobre un dataset de anuncios de vehículos marroquíes. Incluye exploración no supervisada (PCA), predicción de precio con modelos de regresión e interpretabilidad (ALE, LIME), y clasificación del estado y del primer propietario. Imputación múltiple KNN. Stack: R, tidyverse, caret.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Miner%C3%ADa%20de%20Datos/Proyecto%20Miner%C3%ADa%20de%20Datos",
         },
       ],
       experience: [
         {
-          meta: "CVB Lab, UPV · Feb 2026 - Jul 2026",
-          title: "Investigador en prácticas - Deep Learning aplicado a imagen médica",
+          meta: "GFT IT Consulting · Jun 2026 - Ago 2026",
+          title: "Data Scientist and AI Intern – AI and Data",
           copy:
-            "Entrenamiento y fine-tuning de modelos de deep learning sobre imágenes histopatológicas para detección automática de mitosis en cáncer de mama. Trabajo con clases desbalanceadas mediante estrategias de sampling y aumentación de datos. Diseño de splits reproducibles y evaluación con métricas adaptadas al problema clínico. Stack: Python, PyTorch, NumPy, Pandas, Matplotlib, Jupyter Notebook.",
+            "Entrenamiento y despliegue de modelos de machine learning en Google Cloud con Python y Vertex AI. Consultas SQL en BigQuery para exploración y análisis de los datos empleados en los modelos. Formación en RAG e IA agéntica aplicada a casos de uso empresariales.",
+        },
+        {
+          meta: "CVB Lab, UPV · Feb 2026 - Jul 2026",
+          title: "Investigador en prácticas – Deep Learning aplicado a imagen médica",
+          copy:
+            "Fine-tuning de modelos de deep learning sobre imágenes histopatológicas para segmentación y detección automática de mitosis en cáncer de mama. Estrategias de entrenamiento con clases desbalanceadas, aumentación de datos y splits reproducibles. Evaluación con métricas adaptadas al problema clínico (F1, precisión, recall). Stack: Python, PyTorch, NumPy, Pandas, Matplotlib, Jupyter Notebook.",
         },
         {
           meta: "NTT DATA Europe & Latam · Mar 2025 - Jul 2025",
@@ -177,13 +194,6 @@
             { label: "Título oficial", href: "./titulo-grado-matematicas.pdf", filename: "Titulo_Oficial_Grado_Matematicas_UV.pdf" },
             { label: "Expediente académico", href: "./expediente-grado-valenciano.pdf", filename: "Expediente_Academico_Grado_Matematicas_UV.pdf" },
           ],
-        },
-        {
-          meta: "IBM Data Science Professional Certificate",
-          title: "IBM - Coursera · 2025",
-          copy:
-            "Programa profesional completo: metodología de ciencia de datos, Python, SQL, bases de datos, visualización de datos, machine learning con Scikit-learn y proyecto final aplicado.",
-          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/ibm-aprendizaje-automatico",
         },
       ],
       courses: [
@@ -287,7 +297,6 @@
       valueProposition:
         "I combine a solid mathematical background with strong communication skills. My strengths include statistics, optimisation and operations research, together with hands-on experience in data science and machine learning applied to real problems. I developed my MSc thesis at CVB Lab (UPV), building a two-phase mitosis detection system on breast cancer histopathology evaluated on MITOS-ATYPIA-14 and TUPAC16. The work resulted in a paper submitted to CASEIB 2026 (awaiting acceptance).",
       highlights: [
-        "MSc thesis · Medical imaging · CASEIB",
         "Deep Learning · Machine Learning",
         "Python · R · SQL",
         "Modelling, optimisation, statistics and operations research",
@@ -309,70 +318,88 @@
       ],
       projects: [
         {
-          kicker: "Deep Learning · MSc thesis",
+          areaHeading: true,
+          label: "Medical AI · Computer Vision",
+        },
+        {
+          kicker: "Medical AI · Computer Vision · MSc Thesis",
           title: "MSc thesis: Detection and classification of mitotic figures in breast cancer histopathology",
           copy:
             "Two-phase system evaluated on MITOS-ATYPIA-14 and TUPAC16: RF-DETR proposes high-recall candidates and Virchow (ViT-H/14) adapted with LoRA filters false positives by training on the detector's own errors. F₁ improves from 0.62 to 0.79 on MITOS and from 0.57 to 0.76 on TUPAC. Stack: Python, PyTorch, PEFT/LoRA, rfdetr, ultralytics.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
         },
         {
-          kicker: "Deep Learning · CASEIB 2026 publication",
+          kicker: "Medical AI · Computer Vision · CASEIB 2026 Publication",
           title: "Two-phase mitosis detection with pathology foundation models",
           copy:
             "Paper submitted to the XLIV Annual Congress of the Spanish Society of Biomedical Engineering (CASEIB 2026, Valencia) — awaiting acceptance. Proposes a mitotic figure detection pipeline using RF-DETR as detector and LoRA-adapted Virchow as false-positive classifier, evaluated on two independent public datasets.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
         },
         {
-          kicker: "Time series",
-          title: "ARIMA modelling and forecasting with tourism data",
-          copy:
-            "Forecasting project focused on the temporal evolution of tourism, including exploratory analysis, time-series decomposition, scenario comparison and ARIMA modelling in R. The work emphasises goodness of fit, interpretation of temporal behaviour and predictive capacity.",
-          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Tecnicas-de-Prevision",
+          areaHeading: true,
+          label: "Mathematical Modelling · Optimisation",
         },
         {
-          kicker: "Statistical analysis",
-          title: "Multivariate analysis applied to real data",
+          kicker: "Mathematical Modelling · BSc Thesis",
+          title: "Bachelor thesis on compartmental models applied to crime dynamics",
           copy:
-            "Master's project focused on dimensionality reduction, discriminant analysis and multivariate exploration. The project combines real-data processing, statistical interpretation and analysis to extract relevant structure and patterns from a medical-domain dataset.",
-          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Analisis-Multivariante",
+            "Bachelor thesis focused on the formulation and analysis of a compartmental model inspired by epidemiological systems to study the evolution of criminal behaviour in Spain. Includes ordinary differential equations, parameter estimation and fitting to real data.",
+          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas/tfg-compartmental-models-crime-dynamics",
         },
         {
-          kicker: "Combinatorial optimisation",
+          kicker: "Combinatorial Optimisation · BSc Mathematics",
           title: "GRASP and Path Relinking for the Maximum Diversity Problem",
           copy:
             "Python implementation of metaheuristics for an NP-hard combinatorial optimisation problem. The project includes a constructive phase, local search, elite-solution management and intensification strategies to compare GRASP and its Path Relinking extension on benchmark instances.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas/grasp-path-relinking-mdp",
         },
         {
-          kicker: "Mathematical modelling",
-          title: "Bachelor thesis on compartmental models applied to crime dynamics",
-          copy:
-            "Bachelor thesis focused on the formulation and analysis of a compartmental model inspired by epidemiological systems to study the evolution of criminal behaviour in Spain over a specific period. It includes ordinary differential equations, parameter estimation and fitting to real data.",
-          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas/tfg-compartmental-models-crime-dynamics",
+          areaHeading: true,
+          label: "Predictive Models · Data Science",
         },
         {
-          kicker: "Data mining",
+          kicker: "Predictive Models · Time Series",
+          title: "ARIMA modelling and forecasting with tourism data",
+          copy:
+            "Forecasting project focused on the temporal evolution of tourism, including exploratory analysis, time-series decomposition, scenario comparison and ARIMA modelling in R. The work emphasises goodness of fit, interpretation of temporal behaviour and predictive capacity.",
+          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Tecnicas-de-Prevision",
+        },
+        {
+          kicker: "Predictive Models · Statistical Analysis",
+          title: "Multivariate analysis applied to real data",
+          copy:
+            "Master's project focused on dimensionality reduction, discriminant analysis and multivariate exploration. The project combines real-data processing, statistical interpretation and analysis to extract relevant structure and patterns from a medical-domain dataset.",
+          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Analisis-Multivariante",
+        },
+        {
+          kicker: "Predictive Models · Data Mining",
           title: "Price prediction and classification of second-hand vehicles",
           copy:
-            "Master's project at UPV using a Moroccan vehicle-listing dataset with technical, usage, condition and price variables. Includes unsupervised exploration (PCA), price prediction with regression models and interpretability methods (ALE, LIME), and classification of vehicle condition and first-owner status. Multiple KNN imputation. Stack: R, tidyverse, caret.",
+            "Master's project at UPV using a Moroccan vehicle-listing dataset with technical, usage, condition and price variables. Includes unsupervised exploration (PCA), price prediction with regression models and interpretability (ALE, LIME), and classification of vehicle condition and first-owner status. Multiple KNN imputation. Stack: R, tidyverse, caret.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Miner%C3%ADa%20de%20Datos/Proyecto%20Miner%C3%ADa%20de%20Datos",
         },
       ],
       experience: [
         {
-          meta: "CVB Lab, UPV · Feb 2026 - Jul 2026",
-          title: "Research intern - Deep Learning applied to medical imaging",
+          meta: "GFT IT Consulting · Jun 2026 – Aug 2026",
+          title: "Data Scientist and AI Intern – AI and Data",
           copy:
-            "Training and fine-tuning deep learning models on histopathology images for automatic mitosis detection in breast cancer. Work with imbalanced classes through sampling strategies and data augmentation. Design of reproducible splits and evaluation with metrics adapted to the clinical problem. Stack: Python, PyTorch, NumPy, Pandas, Matplotlib, Jupyter Notebook.",
+            "Training and deployment of machine learning models on Google Cloud using Python and Vertex AI. SQL queries in BigQuery for data exploration and analysis. Training in RAG and agentic AI applied to enterprise use cases.",
         },
         {
-          meta: "NTT DATA Europe & Latam · Mar 2025 - Jul 2025",
+          meta: "CVB Lab, UPV · Feb 2026 – Jul 2026",
+          title: "Research Intern – Deep Learning applied to medical imaging",
+          copy:
+            "Fine-tuning deep learning models on histopathology images for segmentation and automatic mitosis detection in breast cancer. Training strategies for imbalanced classes, data augmentation and reproducible splits. Evaluation with clinically adapted metrics (F1, precision, recall). Stack: Python, PyTorch, NumPy, Pandas, Matplotlib, Jupyter Notebook.",
+        },
+        {
+          meta: "NTT DATA Europe & Latam · Mar 2025 – Jul 2025",
           title: "Low-code development intern (OutSystems)",
           copy:
             "Development and maintenance of internal applications for certification-preparation monitoring. SQL queries for data extraction and filtering. CRUD operations, REST API consumption and service integration. Data validation and role-based access control.",
         },
         {
-          meta: "Caixa Popular · Oct 2024 - Jan 2025",
+          meta: "Caixa Popular · Oct 2024 – Jan 2025",
           title: "Cashier and customer service assistant",
           copy:
             "Customer support and advisory work in a financial environment. Cash management, payments and general administrative tasks. Development of communication, organisation and service-orientation skills.",
@@ -399,13 +426,6 @@
             { label: "Official degree", href: "./titulo-grado-matematicas.pdf", filename: "Official_Degree_BSc_Mathematics_UV.pdf" },
             { label: "Academic transcript", href: "./expediente-grado-ingles.pdf", filename: "Academic_Transcript_BSc_Mathematics_UV.pdf" },
           ],
-        },
-        {
-          meta: "IBM Data Science Professional Certificate",
-          title: "IBM - Coursera · 2025",
-          copy:
-            "Complete professional programme covering data science methodology, Python, SQL, databases, data visualisation, machine learning with Scikit-learn and an applied final project.",
-          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/ibm-aprendizaje-automatico",
         },
       ],
       courses: [
@@ -511,7 +531,9 @@ const applyLanguage = (language) => {
     "projects",
     profile.projects,
     (item) =>
-      item.status
+      item.areaHeading
+        ? `<div class="project-area-heading">${item.label}</div>`
+        : item.status
         ? `
           <article class="status-card" aria-disabled="true">
             <span class="status-badge">${item.status}</span>

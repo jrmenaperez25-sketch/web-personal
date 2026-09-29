@@ -512,6 +512,18 @@ h3 {
   transform: translateY(-2px);
 }
 
+.project-area-heading {
+  grid-column: 1 / -1;
+  padding: 10px 0 6px;
+  margin-top: 8px;
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--line);
+}
+
 .timeline-entry {
   display: grid;
   gap: 8px;
