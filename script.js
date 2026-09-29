@@ -9,7 +9,7 @@
       nav: {
         projects: "Proyectos",
         education: "Formación",
-        courses: "Cursos",
+        courses: "Certificaciones",
         contact: "Contacto",
       },
       language: {
@@ -35,7 +35,7 @@
         },
         projects: {
           kicker: "Proyectos destacados",
-          title: "Proyectos académicos",
+          title: "Proyectos y trabajos",
         },
         experience: {
           kicker: "Experiencia",
@@ -46,8 +46,8 @@
           title: "Trayectoria académica",
         },
         courses: {
-          kicker: "Cursos complementarios",
-          title: "Cursos complementarios",
+          kicker: "Certificaciones profesionales",
+          title: "Certificaciones profesionales",
         },
         contact: {
           kicker: "Contacto",
@@ -59,13 +59,14 @@
     profile: {
       name: "José Ramón Mena Pérez",
       role: "Mathematician | Data Science | AI Engineering",
+      cvHref: "./cv-es.pdf",
       summary:
-        "Estudiante del Máster en Ingeniería de Análisis de Datos, Mejora de Procesos y Toma de Decisiones en la UPV, con base sólida en estadística y modelado matemático. Experiencia investigadora en deep learning aplicado a imagen médica. Perfil orientado a proyectos donde la base matemática y la interpretación estadística sean fundamentales para la resolución de problemas.",
+        "Matemático con Máster en Ingeniería de Análisis de Datos (UPV) y experiencia investigadora en deep learning aplicado a imagen médica. Autor de un artículo enviado al CASEIB 2026 sobre segmentación de lesiones mamarias con U-Net. Perfil orientado a proyectos donde la base matemática y la interpretación estadística sean fundamentales para la resolución de problemas.",
       valueProposition:
-        "Combino una formación matemática sólida con grandes habilidades de comunicación. Destaco por mis competencias en estadística, optimización e investigación operativa. Cuento con experiencia práctica en ciencia de datos y machine learning aplicado a problemas reales. He participado en proyectos relacionados con series temporales, análisis multivariante y control estadístico de la calidad. Actualmente trabajo en un proyecto de deep learning en un entorno investigador real, desde el preprocesamiento de imágenes, diseño de splits de entrenamiento y aumentación de datos hasta la selección de funciones de pérdida, estrategias de sampling y evaluación de modelos mediante métricas adecuadas.",
+        "Combino una formación matemática sólida con grandes habilidades de comunicación. Destaco por mis competencias en estadística, optimización e investigación operativa. Cuento con experiencia práctica en ciencia de datos y machine learning aplicado a problemas reales. He desarrollado el TFM en el CVB Lab (UPV), implementando un sistema de detección de mitosis en dos fases sobre histopatología de cáncer de mama evaluado en MITOS-ATYPIA-14 y TUPAC16. El trabajo incluye un artículo enviado al CASEIB 2026 sobre segmentación de lesiones mamarias con U-Net.",
       highlights: [
-        "Deep Learning",
-        "Machine Learning",
+        "TFM · Imagen médica · CASEIB",
+        "Deep Learning · Machine Learning",
         "Python · R · SQL",
         "Modelización, optimización, estadística e investigación operativa",
       ],
@@ -85,6 +86,20 @@
         "OutSystems",
       ],
       projects: [
+        {
+          kicker: "Deep Learning · TFM",
+          title: "TFM: Detección y clasificación de figuras mitóticas en histopatología de cáncer de mama",
+          copy:
+            "Sistema en dos fases evaluado en MITOS-ATYPIA-14 y TUPAC16: RF-DETR propone candidatos con alta sensibilidad y Virchow (ViT-H/14) adaptado con LoRA filtra los falsos positivos entrenando sobre los errores reales del detector. El F₁ pasa de 0,62 a 0,79 en MITOS y de 0,57 a 0,76 en TUPAC. Stack: Python, PyTorch, PEFT/LoRA, rfdetr, ultralytics.",
+          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
+        },
+        {
+          kicker: "Deep Learning · Publicación CASEIB 2026",
+          title: "Detección de mitosis en dos fases con modelos fundacionales de patología",
+          copy:
+            "Artículo presentado en el XLIV Congreso Anual de la Sociedad Española de Ingeniería Biomédica (CASEIB 2026, Valencia). Propone un pipeline de detección de figuras mitóticas con RF-DETR como detector y Virchow adaptado con LoRA como clasificador de falsos positivos, con resultados en dos conjuntos de datos públicos independientes.",
+          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
+        },
         {
           kicker: "Series temporales",
           title: "Modelización ARIMA y predicción sobre datos de turismo",
@@ -114,16 +129,11 @@
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas/tfg-compartmental-models-crime-dynamics",
         },
         {
-          title: "Propuesta de trabajo en análisis multivariante",
+          kicker: "Minería de datos",
+          title: "Predicción de precio y clasificación de vehículos de segunda mano",
           copy:
-            "Trabajo del Máster (UPV) sobre el dataset Africa Soil Property Prediction Challenge (Kaggle, 2014). A partir de 3 593 variables predictoras -3 578 espectros de infrarrojo medio (MIR) y 15 variables edáficas, topográficas, climáticas y de teledetección- se predicen cinco indicadores de calidad del suelo (Ca, P, pH, SOC, Sand) en zonas rurales de África subsahariana. El proyecto compara PCA, PCR y PLS2 como métodos de variables latentes frente a Ridge, Random Forest y MLP como referencias.",
-          status: "En proceso · no disponible",
-        },
-        {
-          title: "Propuesta de trabajo en minería de datos",
-          copy:
-            "Trabajo del Máster (UPV) sobre una base de datos de anuncios de vehículos con variables técnicas, de uso, estado, localización y precio. El proyecto incluye exploración no supervisada, regresión para predecir precio y clasificación del estado del vehículo y de primer propietario, con imputación múltiple y validación estratificada.",
-          status: "En proceso · no disponible",
+            "Proyecto del Máster (UPV) sobre un dataset de anuncios de vehículos marroquíes con variables técnicas, de uso, condición y precio. Incluye exploración no supervisada (PCA), predicción de precio con modelos de regresión e interpretabilidad (ALE, LIME), y clasificación del estado y del primer propietario. Imputación múltiple KNN. Stack: R, tidyverse, caret.",
+          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Miner%C3%ADa%20de%20Datos/Proyecto%20Miner%C3%ADa%20de%20Datos",
         },
       ],
       experience: [
@@ -213,7 +223,7 @@
         { label: "GitHub", value: "github.com/jrmenaperez25-sketch", href: "https://github.com/jrmenaperez25-sketch" },
         { label: "LinkedIn", value: "linkedin.com/in/jrmenaperez25", href: "https://www.linkedin.com/in/jrmenaperez25/" },
         { label: "Credly", value: "Perfil de credenciales", href: "https://www.credly.com/users/jose-ramon-mena-perez/edit#credly" },
-        { label: "CV", value: "Versión PDF", href: "./cv-jose-ramon-mena-perez.pdf" },
+        { label: "CV", value: "Versión PDF", href: "./cv-es.pdf" },
       ],
     },
   },
@@ -227,7 +237,7 @@
       nav: {
         projects: "Projects",
         education: "Education",
-        courses: "Courses",
+        courses: "Certifications",
         contact: "Contact",
       },
       language: {
@@ -253,7 +263,7 @@
         },
         projects: {
           kicker: "Selected projects",
-          title: "Academic projects",
+          title: "Projects and work",
         },
         experience: {
           kicker: "Experience",
@@ -264,8 +274,8 @@
           title: "Academic background",
         },
         courses: {
-          kicker: "Additional courses",
-          title: "Additional courses",
+          kicker: "Professional certifications",
+          title: "Professional certifications",
         },
         contact: {
           kicker: "Contact",
@@ -277,13 +287,14 @@
     profile: {
       name: "José Ramón Mena Pérez",
       role: "Mathematician | Data Science | AI Engineering",
+      cvHref: "./cv-en.pdf",
       summary:
-        "Student of the Master's Degree in Data Analysis Engineering, Process Improvement and Decision Making at UPV, with a strong background in statistics and mathematical modelling. Research experience in deep learning applied to medical imaging. I am oriented toward projects where mathematical foundations and statistical interpretation are essential for solving problems.",
+        "Mathematician with a Master's degree in Data Analysis Engineering (UPV) and research experience in deep learning applied to medical imaging. Author of a paper submitted to CASEIB 2026 on mitosis detection in breast cancer histopathology. Oriented toward projects where mathematical foundations and statistical interpretation are essential for solving problems.",
       valueProposition:
-        "I combine a solid mathematical background with strong communication skills. My strengths include statistics, optimisation and operations research, together with hands-on experience in data science and machine learning applied to real problems. I have worked on projects involving time series, multivariate analysis and statistical quality control. I am currently working on a deep learning project in a real research environment, covering image preprocessing, training split design, data augmentation, loss-function selection, sampling strategies and model evaluation with appropriate metrics.",
+        "I combine a solid mathematical background with strong communication skills. My strengths include statistics, optimisation and operations research, together with hands-on experience in data science and machine learning applied to real problems. I developed my MSc thesis at CVB Lab (UPV), building a two-phase mitosis detection system on breast cancer histopathology evaluated on MITOS-ATYPIA-14 and TUPAC16. The work includes a paper submitted to CASEIB 2026 on breast lesion segmentation with U-Net.",
       highlights: [
-        "Deep Learning",
-        "Machine Learning",
+        "MSc thesis · Medical imaging · CASEIB",
+        "Deep Learning · Machine Learning",
         "Python · R · SQL",
         "Modelling, optimisation, statistics and operations research",
       ],
@@ -303,6 +314,20 @@
         "OutSystems",
       ],
       projects: [
+        {
+          kicker: "Deep Learning · MSc thesis",
+          title: "MSc thesis: Detection and classification of mitotic figures in breast cancer histopathology",
+          copy:
+            "Two-phase system evaluated on MITOS-ATYPIA-14 and TUPAC16: RF-DETR proposes high-recall candidates and Virchow (ViT-H/14) adapted with LoRA filters false positives by training on the detector's own errors. F₁ improves from 0.62 to 0.79 on MITOS and from 0.57 to 0.76 on TUPAC. Stack: Python, PyTorch, PEFT/LoRA, rfdetr, ultralytics.",
+          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
+        },
+        {
+          kicker: "Deep Learning · CASEIB 2026 publication",
+          title: "Two-phase mitosis detection with pathology foundation models",
+          copy:
+            "Paper presented at the XLIV Annual Congress of the Spanish Society of Biomedical Engineering (CASEIB 2026, Valencia). Proposes a mitotic figure detection pipeline using RF-DETR as detector and LoRA-adapted Virchow as false-positive classifier, evaluated on two independent public datasets.",
+          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
+        },
         {
           kicker: "Time series",
           title: "ARIMA modelling and forecasting with tourism data",
@@ -332,16 +357,11 @@
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas/tfg-compartmental-models-crime-dynamics",
         },
         {
-          title: "Project proposal in multivariate analysis",
+          kicker: "Data mining",
+          title: "Price prediction and classification of second-hand vehicles",
           copy:
-            "Master's project at UPV using the Africa Soil Property Prediction Challenge dataset (Kaggle, 2014). Based on 3,593 predictive variables -3,578 mid-infrared spectra and 15 soil, topographic, climate and remote-sensing variables- the goal is to predict five soil-quality indicators in rural sub-Saharan Africa. The project compares PCA, PCR and PLS2 with Ridge, Random Forest and MLP baselines.",
-          status: "In progress · unavailable",
-        },
-        {
-          title: "Project proposal in data mining",
-          copy:
-            "Master's project at UPV based on a vehicle-listing dataset with technical, usage, condition, location and price variables. It includes unsupervised exploration, price regression and classification of vehicle condition and first-owner status, with multiple imputation and stratified validation.",
-          status: "In progress · unavailable",
+            "Master's project at UPV using a Moroccan vehicle-listing dataset with technical, usage, condition and price variables. Includes unsupervised exploration (PCA), price prediction with regression models and interpretability methods (ALE, LIME), and classification of vehicle condition and first-owner status. Multiple KNN imputation. Stack: R, tidyverse, caret.",
+          href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/Miner%C3%ADa%20de%20Datos/Proyecto%20Miner%C3%ADa%20de%20Datos",
         },
       ],
       experience: [
@@ -431,7 +451,7 @@
         { label: "GitHub", value: "github.com/jrmenaperez25-sketch", href: "https://github.com/jrmenaperez25-sketch" },
         { label: "LinkedIn", value: "linkedin.com/in/jrmenaperez25", href: "https://www.linkedin.com/in/jrmenaperez25/" },
         { label: "Credly", value: "Credential profile", href: "https://www.credly.com/users/jose-ramon-mena-perez/edit#credly" },
-        { label: "CV", value: "PDF version", href: "./cv-jose-ramon-mena-perez.pdf" },
+        { label: "CV", value: "PDF version", href: "./cv-en.pdf" },
       ],
     },
   },
@@ -487,6 +507,9 @@ const applyLanguage = (language) => {
   setText("hero-summary", profile.summary);
   setText("value-proposition", profile.valueProposition);
   setText("contact-lead", profile.contactLead);
+
+  const cvBtn = document.getElementById("cv-download-btn");
+  if (cvBtn) cvBtn.href = profile.cvHref;
 
   renderList(
     "highlights",
