@@ -61,9 +61,9 @@
       role: "Mathematician | Data Science | AI Engineering",
       cvHref: "./cv-es.pdf",
       summary:
-        "Matemático con Máster en Ingeniería de Análisis de Datos (UPV) y experiencia investigadora en deep learning aplicado a imagen médica. Autor de un artículo enviado al CASEIB 2026 sobre segmentación de lesiones mamarias con U-Net. Perfil orientado a proyectos donde la base matemática y la interpretación estadística sean fundamentales para la resolución de problemas.",
+        "Matemático con Máster en Ingeniería de Análisis de Datos (UPV) y experiencia investigadora en deep learning aplicado a imagen médica. Autor de un artículo presentado en el CASEIB 2026 sobre detección de figuras mitóticas en histopatología de cáncer de mama. Perfil orientado a proyectos donde la base matemática y la interpretación estadística sean fundamentales para la resolución de problemas.",
       valueProposition:
-        "Combino una formación matemática sólida con grandes habilidades de comunicación. Destaco por mis competencias en estadística, optimización e investigación operativa. Cuento con experiencia práctica en ciencia de datos y machine learning aplicado a problemas reales. He desarrollado el TFM en el CVB Lab (UPV), implementando un sistema de detección de mitosis en dos fases sobre histopatología de cáncer de mama evaluado en MITOS-ATYPIA-14 y TUPAC16. El trabajo incluye un artículo enviado al CASEIB 2026 sobre segmentación de lesiones mamarias con U-Net.",
+        "Combino una formación matemática sólida con grandes habilidades de comunicación. Destaco por mis competencias en estadística, optimización e investigación operativa. Cuento con experiencia práctica en ciencia de datos y machine learning aplicado a problemas reales. He desarrollado el TFM en el CVB Lab (UPV), implementando un sistema de detección de mitosis en dos fases sobre histopatología de cáncer de mama evaluado en MITOS-ATYPIA-14 y TUPAC16. El trabajo dio lugar a un artículo presentado en el CASEIB 2026.",
       highlights: [
         "TFM · Imagen médica · CASEIB",
         "Deep Learning · Machine Learning",
@@ -283,9 +283,9 @@
       role: "Mathematician | Data Science | AI Engineering",
       cvHref: "./cv-en.pdf",
       summary:
-        "Mathematician with a Master's degree in Data Analysis Engineering (UPV) and research experience in deep learning applied to medical imaging. Author of a paper submitted to CASEIB 2026 on mitosis detection in breast cancer histopathology. Oriented toward projects where mathematical foundations and statistical interpretation are essential for solving problems.",
+        "Mathematician with a Master's degree in Data Analysis Engineering (UPV) and research experience in deep learning applied to medical imaging. Author of a paper presented at CASEIB 2026 on two-phase mitosis detection in breast cancer histopathology. Oriented toward projects where mathematical foundations and statistical interpretation are essential for solving problems.",
       valueProposition:
-        "I combine a solid mathematical background with strong communication skills. My strengths include statistics, optimisation and operations research, together with hands-on experience in data science and machine learning applied to real problems. I developed my MSc thesis at CVB Lab (UPV), building a two-phase mitosis detection system on breast cancer histopathology evaluated on MITOS-ATYPIA-14 and TUPAC16. The work includes a paper submitted to CASEIB 2026 on breast lesion segmentation with U-Net.",
+        "I combine a solid mathematical background with strong communication skills. My strengths include statistics, optimisation and operations research, together with hands-on experience in data science and machine learning applied to real problems. I developed my MSc thesis at CVB Lab (UPV), building a two-phase mitosis detection system on breast cancer histopathology evaluated on MITOS-ATYPIA-14 and TUPAC16. The work resulted in a paper presented at CASEIB 2026.",
       highlights: [
         "MSc thesis · Medical imaging · CASEIB",
         "Deep Learning · Machine Learning",
