@@ -175,12 +175,13 @@
       ],
       timeline: [
         {
-          meta: "Máster en Ing. de Análisis de Datos, Mejora de Procesos y Toma de Decisiones",
-          title: "UPV · 2025 - 2026",
+          meta: "Máster Universitario en Ingeniería de Análisis de Datos, Mejora de Procesos y Toma de Decisiones",
+          title: "Universitat Politècnica de València · 2025 - 2026",
           copy:
             "Formación avanzada en métodos estadísticos, series temporales, minería de datos, IA aplicada, diseño de experimentos, modelado y simulación, optimización e investigación operativa. Orientado a proyectos aplicados con base analítica sólida.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master",
           docs: [
+            { label: "Certificado provisional", href: "./certificado-master-provisional.pdf", filename: "Certificado_Provisional_Master_MUIAD_UPV.pdf" },
             { label: "Expediente académico", href: "./expediente-master-es.pdf", filename: "Expediente_Academico_Master_MUIAD_UPV.pdf" },
           ],
         },
@@ -407,12 +408,13 @@
       ],
       timeline: [
         {
-          meta: "MSc in Data Analysis Engineering, Process Improvement and Decision Making",
-          title: "UPV · 2025 - 2026",
+          meta: "MSc in Data Analysis, Process Improvement and Decision Support Engineering",
+          title: "Universitat Politècnica de València · 2025 - 2026",
           copy:
             "Advanced training in statistical methods, time series, data mining, applied AI, design of experiments, modelling and simulation, optimisation and operations research. Oriented toward applied projects with a strong analytical foundation.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master",
           docs: [
+            { label: "Provisional certificate", href: "./certificado-master-provisional.pdf", filename: "Provisional_Certificate_MSc_MUIAD_UPV.pdf" },
             { label: "Academic transcript", href: "./expediente-master-en.pdf", filename: "Academic_Transcript_MSc_MUIAD_UPV.pdf" },
           ],
         },
