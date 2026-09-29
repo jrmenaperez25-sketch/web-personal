@@ -61,9 +61,9 @@
       role: "Mathematician | Data Science | AI Engineering",
       cvHref: "./cv-es.pdf",
       summary:
-        "Matemático con Máster en Ingeniería de Análisis de Datos (UPV) y experiencia investigadora en deep learning aplicado a imagen médica. Autor de un artículo presentado en el CASEIB 2026 sobre detección de figuras mitóticas en histopatología de cáncer de mama. Perfil orientado a proyectos donde la base matemática y la interpretación estadística sean fundamentales para la resolución de problemas.",
+        "Matemático con Máster en Ingeniería de Análisis de Datos (UPV) y experiencia investigadora en deep learning aplicado a imagen médica. Autor de un artículo enviado al CASEIB 2026 sobre detección de figuras mitóticas en histopatología de cáncer de mama, pendiente de aceptación. Perfil orientado a proyectos donde la base matemática y la interpretación estadística sean fundamentales para la resolución de problemas.",
       valueProposition:
-        "Combino una formación matemática sólida con grandes habilidades de comunicación. Destaco por mis competencias en estadística, optimización e investigación operativa. Cuento con experiencia práctica en ciencia de datos y machine learning aplicado a problemas reales. He desarrollado el TFM en el CVB Lab (UPV), implementando un sistema de detección de mitosis en dos fases sobre histopatología de cáncer de mama evaluado en MITOS-ATYPIA-14 y TUPAC16. El trabajo dio lugar a un artículo presentado en el CASEIB 2026.",
+        "Combino una formación matemática sólida con grandes habilidades de comunicación. Destaco por mis competencias en estadística, optimización e investigación operativa. Cuento con experiencia práctica en ciencia de datos y machine learning aplicado a problemas reales. He desarrollado el TFM en el CVB Lab (UPV), implementando un sistema de detección de mitosis en dos fases sobre histopatología de cáncer de mama evaluado en MITOS-ATYPIA-14 y TUPAC16. El trabajo dio lugar a un artículo enviado al CASEIB 2026 (pendiente de aceptación).",
       highlights: [
         "TFM · Imagen médica · CASEIB",
         "Deep Learning · Machine Learning",
@@ -97,7 +97,7 @@
           kicker: "Deep Learning · Publicación CASEIB 2026",
           title: "Detección de mitosis en dos fases con modelos fundacionales de patología",
           copy:
-            "Artículo presentado en el XLIV Congreso Anual de la Sociedad Española de Ingeniería Biomédica (CASEIB 2026, Valencia). Propone un pipeline de detección de figuras mitóticas con RF-DETR como detector y Virchow adaptado con LoRA como clasificador de falsos positivos, con resultados en dos conjuntos de datos públicos independientes.",
+            "Artículo enviado al XLIV Congreso Anual de la Sociedad Española de Ingeniería Biomédica (CASEIB 2026, Valencia) — pendiente de aceptación. Propone un pipeline de detección de figuras mitóticas con RF-DETR como detector y Virchow adaptado con LoRA como clasificador de falsos positivos, con resultados en dos conjuntos de datos públicos independientes.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
         },
         {
@@ -283,9 +283,9 @@
       role: "Mathematician | Data Science | AI Engineering",
       cvHref: "./cv-en.pdf",
       summary:
-        "Mathematician with a Master's degree in Data Analysis Engineering (UPV) and research experience in deep learning applied to medical imaging. Author of a paper presented at CASEIB 2026 on two-phase mitosis detection in breast cancer histopathology. Oriented toward projects where mathematical foundations and statistical interpretation are essential for solving problems.",
+        "Mathematician with a Master's degree in Data Analysis Engineering (UPV) and research experience in deep learning applied to medical imaging. Author of a paper submitted to CASEIB 2026 on two-phase mitosis detection in breast cancer histopathology, currently awaiting acceptance. Oriented toward projects where mathematical foundations and statistical interpretation are essential for solving problems.",
       valueProposition:
-        "I combine a solid mathematical background with strong communication skills. My strengths include statistics, optimisation and operations research, together with hands-on experience in data science and machine learning applied to real problems. I developed my MSc thesis at CVB Lab (UPV), building a two-phase mitosis detection system on breast cancer histopathology evaluated on MITOS-ATYPIA-14 and TUPAC16. The work resulted in a paper presented at CASEIB 2026.",
+        "I combine a solid mathematical background with strong communication skills. My strengths include statistics, optimisation and operations research, together with hands-on experience in data science and machine learning applied to real problems. I developed my MSc thesis at CVB Lab (UPV), building a two-phase mitosis detection system on breast cancer histopathology evaluated on MITOS-ATYPIA-14 and TUPAC16. The work resulted in a paper submitted to CASEIB 2026 (awaiting acceptance).",
       highlights: [
         "MSc thesis · Medical imaging · CASEIB",
         "Deep Learning · Machine Learning",
@@ -319,7 +319,7 @@
           kicker: "Deep Learning · CASEIB 2026 publication",
           title: "Two-phase mitosis detection with pathology foundation models",
           copy:
-            "Paper presented at the XLIV Annual Congress of the Spanish Society of Biomedical Engineering (CASEIB 2026, Valencia). Proposes a mitotic figure detection pipeline using RF-DETR as detector and LoRA-adapted Virchow as false-positive classifier, evaluated on two independent public datasets.",
+            "Paper submitted to the XLIV Annual Congress of the Spanish Society of Biomedical Engineering (CASEIB 2026, Valencia) — awaiting acceptance. Proposes a mitotic figure detection pipeline using RF-DETR as detector and LoRA-adapted Virchow as false-positive classifier, evaluated on two independent public datasets.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master/TFM-Deteccion-Mitosis",
         },
         {
