@@ -512,6 +512,37 @@ h3 {
   transform: translateY(-2px);
 }
 
+.timeline-entry {
+  display: grid;
+  gap: 8px;
+}
+
+.timeline-docs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 4px;
+}
+
+.timeline-doc-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(78, 205, 196, 0.07);
+  border: 1px solid rgba(78, 205, 196, 0.22);
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 700;
+  transition: background 180ms ease, transform 180ms ease;
+}
+
+.timeline-doc-link:hover {
+  background: rgba(78, 205, 196, 0.14);
+  transform: translateY(-1px);
+}
+
 .contact-card {
   display: grid;
   gap: 18px;

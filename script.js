@@ -163,6 +163,9 @@
           copy:
             "Formación avanzada en métodos estadísticos, series temporales, minería de datos, IA aplicada, diseño de experimentos, modelado y simulación, optimización e investigación operativa. Orientado a proyectos aplicados con base analítica sólida.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master",
+          docs: [
+            { label: "Expediente académico", href: "./expediente-master-es.pdf" },
+          ],
         },
         {
           meta: "Grado en Matemáticas",
@@ -170,6 +173,10 @@
           copy:
             "Formación en matemáticas aplicadas: álgebra lineal, análisis matemático, probabilidad y estadística, ecuaciones diferenciales, métodos numéricos, investigación operativa, topología y programación en Python, R y C++. Incluye proyectos en optimización combinatoria y modelización.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas",
+          docs: [
+            { label: "Título oficial", href: "./titulo-grado-matematicas.pdf" },
+            { label: "Expediente académico", href: "./expediente-grado-matematicas.pdf" },
+          ],
         },
         {
           meta: "IBM Data Science Professional Certificate",
@@ -181,38 +188,25 @@
       ],
       courses: [
         {
-          meta: "IBM - Coursera",
-          title: "Python for Data Science, AI & Development",
+          meta: "Johns Hopkins University · Coursera",
+          title: "Programa especializado: HTML, CSS, and JavaScript for Web Developers",
           copy:
-            "Formación en Python aplicada a ciencia de datos, automatización y desarrollo, con base práctica para entornos analíticos y de programación.",
-          href: "https://www.coursera.org/account/accomplishments/verify/WXNDUYU8F2OE",
+            "Especialización en desarrollo web front-end con HTML, CSS y JavaScript, desde estructura y diseño hasta comportamiento interactivo en aplicaciones web. Completado en agosto de 2026.",
+          href: "https://www.coursera.org/account/accomplishments/specialization/I7NEIX9YH18K",
         },
         {
-          meta: "Microsoft - Coursera",
-          title: "SQL Foundations",
+          meta: "IBM · Coursera",
+          title: "Programa especializado: Data Science Fundamentals with Python and SQL",
           copy:
-            "Fundamentos de SQL orientados a consulta, extracción y gestión de datos en contextos analíticos.",
-          href: "https://www.coursera.org/account/accomplishments/verify/W3QI6HVXJJW6",
+            "Especialización en fundamentos de ciencia de datos con Python y SQL, con énfasis en análisis de datos, visualización y metodología de proyectos. Completado en agosto de 2026.",
+          href: "https://www.coursera.org/account/accomplishments/specialization/2MVCQ0URJ070",
         },
         {
-          meta: "IBM - Coursera",
-          title: "Excel Basics for Data Analysis",
+          meta: "IBM · Coursera",
+          title: "Certificado Profesional de IBM Data Science",
           copy:
-            "Manejo de hojas de cálculo para análisis de datos, organización de información y soporte a tareas analíticas.",
-          href: "https://www.coursera.org/account/accomplishments/verify/H9W8GIE9BGNP",
-        },
-        {
-          meta: "Microsoft - Coursera",
-          title: "ETL with Power BI",
-          copy: "Procesos ETL, integración de datos y analítica con Power BI.",
-          href: "https://www.coursera.org/account/accomplishments/verify/FG2LYYPVG5G3",
-        },
-        {
-          meta: "Johns Hopkins - Coursera",
-          title: "HTML, CSS, and JavaScript for Web Developers",
-          copy:
-            "Desarrollo web front-end con enfoque en estructura, estilos y comportamiento interactivo en aplicaciones web.",
-          href: "https://www.coursera.org/account/accomplishments/verify/B8TDLEW7FNRF",
+            "Programa profesional completo de ciencia de datos: metodología, Python, SQL, visualización, machine learning con Scikit-learn y proyecto final aplicado. Completado en agosto de 2026.",
+          href: "https://www.coursera.org/account/accomplishments/specialization/HH0FV246Z4NI",
         },
       ],
       contactLead:
@@ -391,6 +385,9 @@
           copy:
             "Advanced training in statistical methods, time series, data mining, applied AI, design of experiments, modelling and simulation, optimisation and operations research. Oriented toward applied projects with a strong analytical foundation.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/master",
+          docs: [
+            { label: "Academic transcript", href: "./expediente-master-en.pdf" },
+          ],
         },
         {
           meta: "BSc in Mathematics",
@@ -398,6 +395,10 @@
           copy:
             "Training in applied mathematics: linear algebra, mathematical analysis, probability and statistics, differential equations, numerical methods, operations research, topology and programming in Python, R and C++. Includes projects in combinatorial optimisation and mathematical modelling.",
           href: "https://github.com/jrmenaperez25-sketch/proyectos-portfolio/tree/master/grado-matematicas",
+          docs: [
+            { label: "Official degree", href: "./titulo-grado-matematicas.pdf" },
+            { label: "Academic transcript", href: "./expediente-grado-matematicas.pdf" },
+          ],
         },
         {
           meta: "IBM Data Science Professional Certificate",
@@ -409,38 +410,25 @@
       ],
       courses: [
         {
-          meta: "IBM - Coursera",
-          title: "Python for Data Science, AI & Development",
+          meta: "Johns Hopkins University · Coursera",
+          title: "Specialization: HTML, CSS, and JavaScript for Web Developers",
           copy:
-            "Training in Python applied to data science, automation and development, with practical foundations for analytical and programming environments.",
-          href: "https://www.coursera.org/account/accomplishments/verify/WXNDUYU8F2OE",
+            "Front-end web development specialization covering HTML structure, CSS styling and JavaScript interactivity in web applications. Completed August 2026.",
+          href: "https://www.coursera.org/account/accomplishments/specialization/I7NEIX9YH18K",
         },
         {
-          meta: "Microsoft - Coursera",
-          title: "SQL Foundations",
+          meta: "IBM · Coursera",
+          title: "Specialization: Data Science Fundamentals with Python and SQL",
           copy:
-            "SQL fundamentals for querying, extracting and managing data in analytical contexts.",
-          href: "https://www.coursera.org/account/accomplishments/verify/W3QI6HVXJJW6",
+            "Data science fundamentals specialization covering Python, SQL, data analysis, visualisation and project methodology. Completed August 2026.",
+          href: "https://www.coursera.org/account/accomplishments/specialization/2MVCQ0URJ070",
         },
         {
-          meta: "IBM - Coursera",
-          title: "Excel Basics for Data Analysis",
+          meta: "IBM · Coursera",
+          title: "IBM Data Science Professional Certificate",
           copy:
-            "Spreadsheet skills for data analysis, information organisation and analytical workflows.",
-          href: "https://www.coursera.org/account/accomplishments/verify/H9W8GIE9BGNP",
-        },
-        {
-          meta: "Microsoft - Coursera",
-          title: "ETL with Power BI",
-          copy: "ETL processes, data integration and analytics with Power BI.",
-          href: "https://www.coursera.org/account/accomplishments/verify/FG2LYYPVG5G3",
-        },
-        {
-          meta: "Johns Hopkins - Coursera",
-          title: "HTML, CSS, and JavaScript for Web Developers",
-          copy:
-            "Front-end web development focused on structure, styling and interactive behaviour in web applications.",
-          href: "https://www.coursera.org/account/accomplishments/verify/B8TDLEW7FNRF",
+            "Complete professional data science programme: methodology, Python, SQL, databases, data visualisation, machine learning with Scikit-learn and an applied final project. Completed August 2026.",
+          href: "https://www.coursera.org/account/accomplishments/specialization/HH0FV246Z4NI",
         },
       ],
       contactLead:
@@ -559,13 +547,16 @@ const applyLanguage = (language) => {
     "timeline",
     profile.timeline,
     (item) => `
-      <a class="timeline-link" href="${item.href}" target="_blank" rel="noreferrer">
-        <article class="timeline-item">
-          <span class="timeline-meta">${item.meta}</span>
-          <h3>${item.title}</h3>
-          <p class="timeline-copy">${item.copy}</p>
-        </article>
-      </a>
+      <div class="timeline-entry">
+        <a class="timeline-link" href="${item.href}" target="_blank" rel="noreferrer">
+          <article class="timeline-item">
+            <span class="timeline-meta">${item.meta}</span>
+            <h3>${item.title}</h3>
+            <p class="timeline-copy">${item.copy}</p>
+          </article>
+        </a>
+        ${item.docs ? `<div class="timeline-docs">${item.docs.map(d => `<a class="timeline-doc-link" href="${d.href}" target="_blank" rel="noreferrer" download>↓ ${d.label}</a>`).join("")}</div>` : ""}
+      </div>
     `
   );
 
